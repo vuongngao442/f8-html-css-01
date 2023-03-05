@@ -22,6 +22,7 @@ body {
 .hero-wrap {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     position: relative;
     background-color: #e6f0ff;
     height: calc(100vh - 90px);
@@ -118,15 +119,11 @@ a {
 }
 
 /* ==================== HERO =================== */
-.hero {
-    margin-top: 130px;
-}
-
-.hero .infor {
+.hero-wrap .infor {
     max-width: 51%;
 }
 
-.hero .sub-title {
+.hero-wrap .sub-title {
     font-weight: 500;
     font-size: 1.8rem;
     line-height: 1.5rem;
@@ -134,7 +131,7 @@ a {
     color: #687691;
 }
 
-.hero .title {
+.hero-wrap .title {
     font-weight: 700;
     font-size: 6.4rem;
     line-height: 119%;
@@ -143,7 +140,7 @@ a {
     text-align: left;
 }
 
-.hero .description {
+.hero-wrap .description {
     font-weight: 400;
     font-size: 1.8rem;
     line-height: 178%;
@@ -151,7 +148,7 @@ a {
     margin-top: 30px;
 }
 
-.hero .hero-cta {
+.hero-wrap .hero-cta {
     margin-top: 40px;
     padding: 18px 34px;
 }
